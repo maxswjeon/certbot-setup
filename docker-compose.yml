@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  certbot:
+    image: certbot/dns-cloudflare
+    container_name: certbot
+    restart: always
+    volumes:
+      - ./cloudflare:/opt/cloudflare
+      - certificates:/etc/letsencrypt
+      - ./logs:/var/log/letsencrypt
+    stdin_open: true
+    tty: true
+    entrypoint: sh
+
+volumes:
+  certificates:
+    external: true
