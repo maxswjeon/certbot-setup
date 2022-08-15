@@ -29,4 +29,19 @@ This setup is used by [me](https://github.com/maxswjeon) in those servers
     ```bash
     docker-compose up -d
     ```
+## Scripts
+### `issue.sh`
+Issues RSA and ECC certificates for given domain and the wildcard
 
+#### Usage
+```bash
+./issue.sh DOMAIN
+```
+
+### `issue_single.sh`
+Issues RSA and ECC certificates for given domain only
+
+#### Usage
+```bash
+./issue_single.sh DOMAIN
+```
