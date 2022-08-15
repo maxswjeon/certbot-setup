@@ -2,7 +2,7 @@
 
 This setup is used by [me](https://github.com/maxswjeon) in those servers
 - [Home Server](https://home.codingbear.kr)
-- [Yonsei Computer Club](https://home.codingbear.kr)
+- [Yonsei Computer Club](https://ycc.club)
 
 ## How to deploy
 1. Create Cloudflare API Token with those credentials
